@@ -1,0 +1,64 @@
+/* Set the background color and font-family for the entire page */
+body {
+  background-color: #aadcdb;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #d7dbd4;
+  padding: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Style the main content area */
+main {
+  margin: 20px;
+}
+
+/* Style the section headings */
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #333;
+  border: 2px solid #333;
+}
